@@ -88,14 +88,14 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /*!************************!*\
-  !*** ./pages/index.js ***!
+  !*** ./pages/about.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -104,44 +104,36 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "E:\\Projects\\portfolio-arthurs\\pages\\index.js";
+var _jsxFileName = "E:\\Projects\\portfolio-arthurs\\pages\\about.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
- // const index = ()=> {
-//     return(
-//         <h1>I am Index page</h1>
-//     );
-// }
-//Class component
-//More functionality
-//More stuff
-//User lifecycle function
 
-class index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+
+class about extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 7
       },
       __self: this
-    }, "I am Index Page from Class Component");
+    }, "I am About Page from Class Component");
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (index);
+/* harmony default export */ __webpack_exports__["default"] = (about);
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
-  !*** multi ./pages/index.js ***!
+  !*** multi ./pages/about.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Projects\portfolio-arthurs\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! E:\Projects\portfolio-arthurs\pages\about.js */"./pages/about.js");
 
 
 /***/ }),
@@ -158,4 +150,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=about.js.map

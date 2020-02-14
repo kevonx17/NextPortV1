@@ -13,7 +13,7 @@ import { Component } from "react";
 //More functionality
 //More stuff
 //User lifecycle function
-class Index extends React, Component {
+class index extends React.Component {
     
     render(){
         return(
