@@ -1,4 +1,6 @@
 import { Component } from "react";
+import Header from '../components/shared/Header';
+
 
 // const index = ()=> {
     
@@ -17,7 +19,10 @@ class index extends React.Component {
     
     render(){
         return(
-            <h1>I am Index Page from Class Component</h1>
+            <div>
+                <h1>I am Index page</h1>
+                <Header/>
+            </div>
         )
     }
 }
