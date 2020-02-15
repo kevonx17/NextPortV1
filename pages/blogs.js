@@ -1,11 +1,14 @@
 
 import { Component } from "react";
+import BaseLayout from '../components/layouts/BaseLayout';
 
 class blogs extends React.Component {
     
     render(){
         return(
-            <h1>I am Blogs Page</h1>
+            <BaseLayout>
+                <h1>I am Blogs Page</h1>
+            </BaseLayout> 
         )
     }
 }

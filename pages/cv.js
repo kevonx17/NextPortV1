@@ -1,11 +1,15 @@
 
 import { Component } from "react";
+import BaseLayout from '../components/layouts/BaseLayout';
 
 class cv extends React.Component {
     
     render(){
         return(
-            <h1>I am CV Page</h1>
+            <BaseLayout>
+                <h1>I am CV Page</h1>
+            </BaseLayout>
+            
         )
     }
 }
