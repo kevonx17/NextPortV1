@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/styles.chunk.css","sources":["webpack:///./styles/styles/main.scss"],"sourcesContent":["\r\n.customClassFromFile{\r\n\r\n    color: blue;\r\n}"],"mappings":"AACA;AAEA;;","sourceRoot":""}

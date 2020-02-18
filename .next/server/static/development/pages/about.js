@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -140,97 +140,129 @@ const BaseLayout = props => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/main.scss */ "./styles/main.scss");
+/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "E:\\Projects\\portfolio-arthurs\\components\\shared\\Header.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
-class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+
+class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
   render() {
     debugger;
     const title = this.props.title;
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 15
       },
       __self: this
     }, __jsx("p", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
-      },
-      __self: this
-    }, " ", title, " "), this.props.children, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/",
+      className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16
       },
       __self: this
-    }, __jsx("a", {
+    }, " ", title, " "), this.props.children, __jsx("p", {
+      className: "jsx-2307025137" + " " + 'customClass',
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 18
       },
       __self: this
-    }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/about",
+    }, "I am styled p element"), __jsx("p", {
+      className: "jsx-2307025137" + " " + 'customClassFromFile',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, "I am styled p element"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 20
       },
       __self: this
     }, __jsx("a", {
+      style: {
+        'fontSize': '20px'
+      },
+      className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 21
       },
       __self: this
-    }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/portfolios",
+    }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/about",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24
       },
       __self: this
     }, __jsx("a", {
+      className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 25
       },
       __self: this
-    }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blogs",
+    }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/portfolios",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28
       },
       __self: this
     }, __jsx("a", {
+      className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 29
       },
       __self: this
-    }, "Blog")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/cv",
+    }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/blogs",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 32
       },
       __self: this
     }, __jsx("a", {
+      className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 33
       },
       __self: this
-    }, "CV")));
+    }, "Blog")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/cv",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }, __jsx("a", {
+      className: "jsx-2307025137",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, "CV")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+      id: "2307025137",
+      __self: this
+    }, "a.jsx-2307025137{font-size:20px;}.customClass.jsx-2307025137{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkU6XFxQcm9qZWN0c1xccG9ydGZvbGlvLWFydGh1cnNcXGNvbXBvbmVudHNcXHNoYXJlZFxcSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNDNEIsQUFLMEIsQUFHSCxVQUNkLEtBSEEiLCJmaWxlIjoiRTpcXFByb2plY3RzXFxwb3J0Zm9saW8tYXJ0aHVyc1xcY29tcG9uZW50c1xcc2hhcmVkXFxIZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuXHJcbmltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcbmltcG9ydCAnLi4vLi4vc3R5bGVzL21haW4uc2Nzcyc7XHJcblxyXG5jbGFzcyBIZWFkZXIgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xyXG4gICAgXHJcbiAgICByZW5kZXIoKXtcclxuICAgICAgICBkZWJ1Z2dlcjtcclxuICAgICAgICBjb25zdCB0aXRsZSA9IHRoaXMucHJvcHMudGl0bGU7XHJcblxyXG4gICAgICAgIHJldHVybihcclxuICAgICAgICAgICAgPFJlYWN0LkZyYWdtZW50PlxyXG4gICAgICAgICAgICA8cD4ge3RpdGxlfSA8L3A+XHJcbiAgICAgICAgICAgIHt0aGlzLnByb3BzLmNoaWxkcmVufVxyXG4gICAgICAgICAgICA8cCBjbGFzc05hbWU9J2N1c3RvbUNsYXNzJz5JIGFtIHN0eWxlZCBwIGVsZW1lbnQ8L3A+XHJcbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0nY3VzdG9tQ2xhc3NGcm9tRmlsZSc+SSBhbSBzdHlsZWQgcCBlbGVtZW50PC9wPlxyXG4gICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9cIj5cclxuICAgICAgICAgICAgICAgIDxhIHN0eWxlPXt7J2ZvbnRTaXplJzogJzIwcHgnfX0+SG9tZTwvYT5cclxuICAgICAgICAgICAgICAgIDwvTGluaz5cclxuXHJcbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XHJcbiAgICAgICAgICAgICAgICA8YT5BYm91dDwvYT5cclxuICAgICAgICAgICAgICAgIDwvTGluaz5cclxuXHJcbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL3BvcnRmb2xpb3NcIj5cclxuICAgICAgICAgICAgICAgIDxhPlBvcnRmb2xpbzwvYT5cclxuICAgICAgICAgICAgICAgIDwvTGluaz5cclxuXHJcbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2Jsb2dzXCI+XHJcbiAgICAgICAgICAgICAgICA8YT5CbG9nPC9hPlxyXG4gICAgICAgICAgICAgICAgPC9MaW5rPlxyXG5cclxuICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvY3ZcIj5cclxuICAgICAgICAgICAgICAgIDxhPkNWPC9hPlxyXG4gICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIFxyXG4gICAgICAgIGEgXHJcbiAgICAgICAge1xyXG4gICAgICAgICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgICAgIH07XHJcbiAgICAgICAgLmN1c3RvbUNsYXNze1xyXG4gICAgICAgICAgICBjb2xvcjogcmVkO1xyXG4gICAgICAgIH1cclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgICA8L1JlYWN0LkZyYWdtZW50PlxyXG4gICAgICAgIClcclxuICAgIH1cclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyOyJdfQ== */\n/*@ sourceURL=E:\\\\Projects\\\\portfolio-arthurs\\\\components\\\\shared\\\\Header.js */"));
   }
 
 }
@@ -1951,7 +1983,18 @@ class about extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 6:
+/***/ "./styles/main.scss":
+/*!**************************!*\
+  !*** ./styles/main.scss ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -2059,6 +2102,17 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ }),
 
