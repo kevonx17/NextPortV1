@@ -1,26 +1,49 @@
 import { Component } from "react";
 import BaseLayout from '../components/layouts/BaseLayout';
+import SuperComponent from '../components/SuperComponent';
 
 
-// const index = ()=> {
+
+class index extends SuperComponent {
     
-//     return(
+    constructor(props) {
+        super(props);
 
-//         <h1>I am Index page</h1>
-//     );
-    
-// }
+        this.state = {
+            title: 'I am Index Page'
+        }
 
-//Class component
-//More functionality
-//More stuff
-//User lifecycle function
-class index extends React.Component {
+        console.log('constructor');
+    }
     
+    componentDidMount() {
+        console.log('componentDidMount');
+    }
+    
+    componentDidUpdate(){
+        console.log('componentDidUpdate');
+    }
+    
+    componentWillUnmount(){
+        console.log('componentWillUnmount');
+    }
+
+updateTitle(){
+    debugger;
+    //console.log("I am update title")
+    this.setState({title: 'I am updated index page'});
+}
+
     render(){
+        //const title = this.state.title;
+        const { title } = this.state;
+        
+        
         return(
             <BaseLayout>
                 <h1>I am Index page</h1>  
+                <h2>{this.state.title}</h2>
+                <button onClick={() => this.updateTitle()}>Change Title</button>
             </BaseLayout>
         )
     }
