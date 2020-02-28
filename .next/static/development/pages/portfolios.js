@@ -12763,6 +12763,7 @@ function (_React$Component) {
           },
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+          as: "/portfolioDetails/".concat(post.id),
           href: "/portfolioDetails?title=".concat(post.title),
           __source: {
             fileName: _jsxFileName,

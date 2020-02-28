@@ -32,14 +32,14 @@ class portfolios extends React.Component {
                 <li>
                 {/* passing data via a query string parameter (a query param). 
                 In our case, it's the title query param. */}
-                <Link href={`/portfolioDetails?title=${post.title}`}>
+                <Link as={`/portfolioDetails/${post.id}`} href={`/portfolioDetails?title=${post.title}`}>
                 <a style={{'fontSize': '20px'}}>{post.title}</a>
                 </Link>
                 </li>
             )
         })
     }
-    
+
     render(){
         const { posts } = this.props;
         return(
