@@ -1966,6 +1966,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 class portfolios extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  /*Getting posts from server*/
   static async getInitialProps() {
     //console.log('I am get getInitialProps');
     let posts = []; // initiated outside try catch block
@@ -1982,20 +1983,24 @@ class portfolios extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       posts: posts.splice(0, 10)
     }; // get first 10 posts
   }
+  /*
+  Render post on screen with link to details page
+  */
+
 
   renderPosts(posts) {
     return posts.map(post => {
       return __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 32
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "/portfolioDetails",
+        href: `/portfolioDetails?title=${post.title}`,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 35
         },
         __self: this
       }, __jsx("a", {
@@ -2004,7 +2009,7 @@ class portfolios extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 36
         },
         __self: this
       }, post.title)));
@@ -2018,19 +2023,19 @@ class portfolios extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     return __jsx(_components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 47
       },
       __self: this
     }, __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 48
       },
       __self: this
     }, "I am Portfolios page"), __jsx("ul", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 49
       },
       __self: this
     }, this.renderPosts(posts)));

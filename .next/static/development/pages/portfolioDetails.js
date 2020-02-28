@@ -10904,6 +10904,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/layouts/BaseLayout */ "./components/layouts/BaseLayout.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -10912,6 +10914,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "E:\\Projects\\portfolio-arthurs\\pages\\portfolioDetails.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+
 
 
 
@@ -10929,30 +10932,38 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(portfolioDetails, [{
     key: "render",
     value: function render() {
+      debugger;
+      console.log(this.props);
       return __jsx(_components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 12
         },
         __self: this
       }, __jsx("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 13
         },
         __self: this
-      }, "I am Portfolio Detail Page"));
+      }, "I am Portfolio Detail Page"), __jsx("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, this.props.router.query.title));
     }
   }]);
 
   return portfolioDetails;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (portfolioDetails);
+/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_7__["withRouter"])(portfolioDetails));
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FportfolioDetails&absolutePagePath=E%3A%5CProjects%5Cportfolio-arthurs%5Cpages%5CportfolioDetails.js ***!
   \**************************************************************************************************************************************************/
@@ -10975,5 +10986,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=portfolioDetails.js.map

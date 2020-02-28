@@ -12750,19 +12750,23 @@ function (_React$Component) {
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(portfolios, [{
     key: "renderPosts",
+
+    /*
+    Render post on screen with link to details page
+    */
     value: function renderPosts(posts) {
       return posts.map(function (post) {
         return __jsx("li", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28
+            lineNumber: 32
           },
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-          href: "/portfolioDetails",
+          href: "/portfolioDetails?title=".concat(post.title),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29
+            lineNumber: 35
           },
           __self: this
         }, __jsx("a", {
@@ -12771,7 +12775,7 @@ function (_React$Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30
+            lineNumber: 36
           },
           __self: this
         }, post.title)));
@@ -12784,25 +12788,27 @@ function (_React$Component) {
       return __jsx(_components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 47
         },
         __self: this
       }, __jsx("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 48
         },
         __self: this
       }, "I am Portfolios page"), __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 49
         },
         __self: this
       }, this.renderPosts(posts)));
     }
   }], [{
     key: "getInitialProps",
+
+    /*Getting posts from server*/
     value: function getInitialProps() {
       var posts, response;
       return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function getInitialProps$(_context) {
