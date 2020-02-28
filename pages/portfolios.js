@@ -4,6 +4,7 @@ import Link from "next/link";
 import BaseLayout from '../components/layouts/BaseLayout';
 import axios from 'axios';
 
+
 class portfolios extends React.Component {
     
     static async getInitialProps(){
@@ -24,7 +25,11 @@ class portfolios extends React.Component {
     renderPosts(posts) {
         return posts.map((post) => {
             return (
-                <li>{post.title}</li>
+                <li>
+                <Link href="/portfolioDetails">
+                <a style={{'fontSize': '20px'}}>{post.title}</a>
+                </Link>
+                </li>
             )
         })
     }

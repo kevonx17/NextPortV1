@@ -161,35 +161,35 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 13
       },
       __self: this
     }, __jsx("p", {
       className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 14
       },
       __self: this
     }, " ", title, " "), this.props.children, __jsx("p", {
       className: "jsx-2307025137" + " " + 'customClass',
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 16
       },
       __self: this
     }, "I am styled p element"), __jsx("p", {
       className: "jsx-2307025137" + " " + 'customClassFromFile',
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 17
       },
       __self: this
     }, "I am styled p element"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 18
       },
       __self: this
     }, __jsx("a", {
@@ -199,69 +199,69 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 19
       },
       __self: this
     }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/about",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 22
       },
       __self: this
     }, __jsx("a", {
       className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 23
       },
       __self: this
     }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/portfolios",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 26
       },
       __self: this
     }, __jsx("a", {
       className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 27
       },
       __self: this
     }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/blogs",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 30
       },
       __self: this
     }, __jsx("a", {
       className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 31
       },
       __self: this
     }, "Blog")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/cv",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 34
       },
       __self: this
     }, __jsx("a", {
       className: "jsx-2307025137",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 35
       },
       __self: this
     }, "CV")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
       id: "2307025137",
       __self: this
-    }, "a.jsx-2307025137{font-size:20px;}.customClass.jsx-2307025137{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkU6XFxQcm9qZWN0c1xccG9ydGZvbGlvLWFydGh1cnNcXGNvbXBvbmVudHNcXHNoYXJlZFxcSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFDNEIsQUFLMEIsQUFHSCxVQUNkLEtBSEEiLCJmaWxlIjoiRTpcXFByb2plY3RzXFxwb3J0Zm9saW8tYXJ0aHVyc1xcY29tcG9uZW50c1xcc2hhcmVkXFxIZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuXHJcbmltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcbmltcG9ydCAnLi4vLi4vc3R5bGVzL21haW4uc2Nzcyc7XHJcblxyXG5jbGFzcyBIZWFkZXIgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xyXG4gICAgXHJcbiAgICByZW5kZXIoKXtcclxuICAgICAgICBjb25zdCB0aXRsZSA9IHRoaXMucHJvcHMudGl0bGU7XHJcblxyXG4gICAgICAgIHJldHVybihcclxuICAgICAgICAgICAgPFJlYWN0LkZyYWdtZW50PlxyXG4gICAgICAgICAgICA8cD4ge3RpdGxlfSA8L3A+XHJcbiAgICAgICAgICAgIHt0aGlzLnByb3BzLmNoaWxkcmVufVxyXG4gICAgICAgICAgICA8cCBjbGFzc05hbWU9J2N1c3RvbUNsYXNzJz5JIGFtIHN0eWxlZCBwIGVsZW1lbnQ8L3A+XHJcbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0nY3VzdG9tQ2xhc3NGcm9tRmlsZSc+SSBhbSBzdHlsZWQgcCBlbGVtZW50PC9wPlxyXG4gICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9cIj5cclxuICAgICAgICAgICAgICAgIDxhIHN0eWxlPXt7J2ZvbnRTaXplJzogJzIwcHgnfX0+SG9tZTwvYT5cclxuICAgICAgICAgICAgICAgIDwvTGluaz5cclxuXHJcbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XHJcbiAgICAgICAgICAgICAgICA8YT5BYm91dDwvYT5cclxuICAgICAgICAgICAgICAgIDwvTGluaz5cclxuXHJcbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL3BvcnRmb2xpb3NcIj5cclxuICAgICAgICAgICAgICAgIDxhPlBvcnRmb2xpbzwvYT5cclxuICAgICAgICAgICAgICAgIDwvTGluaz5cclxuXHJcbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2Jsb2dzXCI+XHJcbiAgICAgICAgICAgICAgICA8YT5CbG9nPC9hPlxyXG4gICAgICAgICAgICAgICAgPC9MaW5rPlxyXG5cclxuICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvY3ZcIj5cclxuICAgICAgICAgICAgICAgIDxhPkNWPC9hPlxyXG4gICAgICAgICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIFxyXG4gICAgICAgIGEgXHJcbiAgICAgICAge1xyXG4gICAgICAgICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgICAgIH07XHJcbiAgICAgICAgLmN1c3RvbUNsYXNze1xyXG4gICAgICAgICAgICBjb2xvcjogcmVkO1xyXG4gICAgICAgIH1cclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgICA8L1JlYWN0LkZyYWdtZW50PlxyXG4gICAgICAgIClcclxuICAgIH1cclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyOyJdfQ== */\n/*@ sourceURL=E:\\\\Projects\\\\portfolio-arthurs\\\\components\\\\shared\\\\Header.js */"));
+    }, "a.jsx-2307025137{font-size:20px;}.customClass.jsx-2307025137{color:red;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkU6XFxQcm9qZWN0c1xccG9ydGZvbGlvLWFydGh1cnNcXGNvbXBvbmVudHNcXHNoYXJlZFxcSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9DNEIsQUFLMEIsQUFHSCxVQUNkLEtBSEEiLCJmaWxlIjoiRTpcXFByb2plY3RzXFxwb3J0Zm9saW8tYXJ0aHVyc1xcY29tcG9uZW50c1xcc2hhcmVkXFxIZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xyXG5cclxuaW1wb3J0ICcuLi8uLi9zdHlsZXMvbWFpbi5zY3NzJztcclxuXHJcbmNsYXNzIEhlYWRlciBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcbiAgICBcclxuICAgIHJlbmRlcigpe1xyXG4gICAgICAgIGNvbnN0IHRpdGxlID0gdGhpcy5wcm9wcy50aXRsZTtcclxuXHJcbiAgICAgICAgcmV0dXJuKFxyXG4gICAgICAgICAgICA8UmVhY3QuRnJhZ21lbnQ+XHJcbiAgICAgICAgICAgIDxwPiB7dGl0bGV9IDwvcD5cclxuICAgICAgICAgICAge3RoaXMucHJvcHMuY2hpbGRyZW59XHJcbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0nY3VzdG9tQ2xhc3MnPkkgYW0gc3R5bGVkIHAgZWxlbWVudDwvcD5cclxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSdjdXN0b21DbGFzc0Zyb21GaWxlJz5JIGFtIHN0eWxlZCBwIGVsZW1lbnQ8L3A+XHJcbiAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL1wiPlxyXG4gICAgICAgICAgICAgICAgPGEgc3R5bGU9e3snZm9udFNpemUnOiAnMjBweCd9fT5Ib21lPC9hPlxyXG4gICAgICAgICAgICAgICAgPC9MaW5rPlxyXG5cclxuICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvYWJvdXRcIj5cclxuICAgICAgICAgICAgICAgIDxhPkFib3V0PC9hPlxyXG4gICAgICAgICAgICAgICAgPC9MaW5rPlxyXG5cclxuICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvcG9ydGZvbGlvc1wiPlxyXG4gICAgICAgICAgICAgICAgPGE+UG9ydGZvbGlvPC9hPlxyXG4gICAgICAgICAgICAgICAgPC9MaW5rPlxyXG5cclxuICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvYmxvZ3NcIj5cclxuICAgICAgICAgICAgICAgIDxhPkJsb2c8L2E+XHJcbiAgICAgICAgICAgICAgICA8L0xpbms+XHJcblxyXG4gICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9jdlwiPlxyXG4gICAgICAgICAgICAgICAgPGE+Q1Y8L2E+XHJcbiAgICAgICAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgXHJcbiAgICAgICAgYSBcclxuICAgICAgICB7XHJcbiAgICAgICAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICAgICAgfTtcclxuICAgICAgICAuY3VzdG9tQ2xhc3N7XHJcbiAgICAgICAgICAgIGNvbG9yOiByZWQ7XHJcbiAgICAgICAgfVxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICAgIDwvUmVhY3QuRnJhZ21lbnQ+XHJcbiAgICAgICAgKVxyXG4gICAgfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBIZWFkZXI7Il19 */\n/*@ sourceURL=E:\\\\Projects\\\\portfolio-arthurs\\\\components\\\\shared\\\\Header.js */"));
   }
 
 }
@@ -1988,10 +1988,26 @@ class portfolios extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       return __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
-      }, post.title);
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        href: "/portfolioDetails",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, __jsx("a", {
+        style: {
+          'fontSize': '20px'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, post.title)));
     });
   }
 
@@ -2002,19 +2018,19 @@ class portfolios extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     return __jsx(_components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 42
       },
       __self: this
     }, __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 43
       },
       __self: this
     }, "I am Portfolios page"), __jsx("ul", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 44
       },
       __self: this
     }, this.renderPosts(posts)));
