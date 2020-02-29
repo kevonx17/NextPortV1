@@ -31,8 +31,9 @@ class portfolios extends React.Component {
             return (
                 <li>
                 {/* passing data via a query string parameter (a query param). 
-                In our case, it's the title query param. */}
-                <Link as={`/portfolioDetails/${post.id}`} href={`/portfolioDetails?title=${post.title}`}>
+                In our case, it's the title query param. 
+                <Link as={`/portfolioDetails/${post.id}`} href={`/portfolioDetails?id=${post.id}`}>*/}
+                <Link as={`/portfolioDetails/${post.id}`} href="/portfolioDetails/[id]">
                 <a style={{'fontSize': '20px'}}>{post.title}</a>
                 </Link>
                 </li>

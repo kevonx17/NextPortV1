@@ -9,8 +9,9 @@ const handle = app.getRequestHandler()
 app.prepare()
 .then(() => {
   const server = express()
-    
+
   server.get('*', (req, res) => {
+    //console.log('------------Serving all of the requests!!!!----------')
     return handle(req, res)
   })
     
