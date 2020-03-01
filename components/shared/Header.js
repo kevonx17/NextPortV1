@@ -2,20 +2,15 @@
 import React from "react";
 import Link from 'next/link';
 import '../../styles/main.scss';
-import {Link as NextLink} from '../../routes';
 
 
 class Header extends React.Component {
     
     render(){
-        const title = this.props.title;
 
         return(
             <React.Fragment>
-            <p> {title} </p>
-            {this.props.children}
-            <p className='customClass'>I am styled p element</p>
-            <p className='customClassFromFile'>I am styled p element</p>
+           
                 <Link href="/">
                 <a style={{'fontSize': '20px'}}>Home</a>
                 </Link>
@@ -35,8 +30,6 @@ class Header extends React.Component {
                 <Link href="/cv">
                 <a>CV</a>
                 </Link>
-                <NextLink route='test' params={{id: '2'}}>Test 2</NextLink>
-                <NextLink route='test' params={{id: '5'}}>Test 5</NextLink>
                 <style jsx>{`
         
         a 

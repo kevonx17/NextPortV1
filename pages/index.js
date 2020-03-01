@@ -1,79 +1,75 @@
 import { Component } from "react";
 import BaseLayout from '../components/layouts/BaseLayout';
-import SuperComponent from '../components/SuperComponent';
-import axios from 'axios';
+import { Button, Container, Row, Col} from 'reactstrap';
+import Typed from 'react-typed';
 
 
-
-class index extends SuperComponent {
-    
-    static async getInitialProps(){
-        //console.log('I am get getInitialProps');
-        let userData = {}; // initiated outside try catch block
-        try{
-            const response = await axios
-            .get('https://jsonplaceholder.typicode.com/todos/1');
-            //console.log(response.data);
-            userData = response.data;
-        } catch(err) {
-            console.error(err);
-        }
-        
-        //     .then(
-        //    (response) => console.log(response.data))
-        //    .catch(err => console.error(err)) 
-        
-
-        return {initialData: [1,2,3,4], userData};
-    }
-
+class index extends React.Component {
 
     constructor(props) {
         super(props);
-
-        this.state = {
-            title: 'I am Index Page'
-        }
+        this.roles =['Developer', 'Tech Lover', 'Java', 'C#']
     }
-    
-    componentDidMount() {
-        console.log('componentDidMount');
-    }
-    
-    componentDidUpdate(){
-        console.log('componentDidUpdate');
-    }
-    
-    componentWillUnmount(){
-        console.log('componentWillUnmount');
-    }
-
-updateTitle(){
-    debugger;
-    //console.log("I am update title")
-    this.setState({title: 'I am updated index page'});
-}
-
     render(){
-        //const title = this.state.title;
-        const { title } = this.state;
-        //const initialData = this.props.initialData;
-        const { userData, initialData } = this.props;
-
         
         return(
-            <BaseLayout>
-                <h1>I am Index page</h1>  
-                <h2>{title}</h2>
-                <h2>{userData.title}</h2>
-                <button onClick={() => this.updateTitle()}>Change Title</button>
+            <BaseLayout className="cover">
+            <div className="main-section">
+                <div className="background-image">
+                <img src="/static/images/background-index.png" />
+                </div>
+
+                <Container>
+                <Row>
+                    <Col md="6">
+                    <div className="hero-section">
+                        <div className={`flipper`}>
+                        <div className="back">
+                            <div className="hero-section-content">
+                            <h2> Full Stack Web Developer </h2>
+                            <div className="hero-section-content-intro">
+                                Have a look at my portfolio and job history.
+                            </div>
+                            </div>
+                            <img className="image" src="/static/images/section-1.png"/>
+                            <div className="shadow-custom">
+                            <div className="shadow-inner"> </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </Col>
+                    <Col md="6" className="hero-welcome-wrapper">
+                    <div className="hero-welcome-text">
+                        <h1>
+                        Welcome to the portfolio website of Tyrone Arthurs.
+                        Get informed, collaborate and discover projects I worked on throughout the years!
+                        </h1>
+                    </div>
+                    <Typed
+                        loop
+                        typeSpeed={60}
+                        backSpeed={30}
+                        strings={this.roles}
+                        smartBackspace
+                        backDelay={1000}
+                        loopCount={0}
+                        showCursor
+                        className="self-typed"
+                        cursorChar="|"
+                        />
+                    <div className="hero-welcome-bio">
+                        <h1>
+                        Let's take a look on my work.
+                        </h1>
+                    </div>
+                    </Col>
+                </Row>
+                </Container>
+            </div>
             </BaseLayout>
+
         )
     }
 }
-
 export default index;
-
-//<Header title={'I am a header component'}>
-//<h1>I am header subtitle</h1>
-//</Header>

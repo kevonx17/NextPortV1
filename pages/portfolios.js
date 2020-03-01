@@ -27,9 +27,11 @@ class portfolios extends React.Component {
     Render post on screen with link to details page
     */
     renderPosts(posts) {
-        return posts.map((post) => {
+        //When iterating over post we can get an index value
+        //which we can use as <li key={index}>
+        return posts.map((post, index) => {
             return (
-                <li>
+                <li key={index}>
                 {/* passing data via a query string parameter (a query param). 
                 In our case, it's the title query param. 
                 <Link as={`/portfolioDetails/${post.id}`} href={`/portfolioDetails?id=${post.id}`}>*/}
