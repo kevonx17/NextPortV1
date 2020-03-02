@@ -16,7 +16,7 @@ const BsNavLink = (props) => {
     const { route, title } = props;
     return (
         <Link href={route}>
-        <a className="nav-link"> {title} </a>
+        <a className="nav-link port-navbar-link"> {title} </a>
         </Link>
     )
 }
@@ -28,28 +28,28 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Tyrone Arthurs</NavbarBrand>
+      <Navbar className="port-navbar port-default absolute" color="transparent" dark expand="md">
+        <NavbarBrand className="port-navbar-brand" href="/">Tyrone Arthurs</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavItem>
+            <NavItem className="port-navbar-item">
             <BsNavLink route="/" title="Home" />
             </NavItem>
-            <NavItem>
+            <NavItem className="port-navbar-item">
             <BsNavLink route="/about" title="About" />
             </NavItem>
-            <NavItem>
+            <NavItem className="port-navbar-item">
             <BsNavLink route="/portfolios" title="Portfolio" />
             </NavItem>
-            <NavItem>
+            <NavItem className="port-navbar-item">
             <BsNavLink route="/blogs" title="Blog" />
             </NavItem>
-            <NavItem>
+            <NavItem className="port-navbar-item">
             <BsNavLink route="/cv" title="CV" />
             </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/kevonx17/NextPortV1">GitHub</NavLink>
+            <NavItem className="port-navbar-item">
+              <NavLink className="port-navbar-link" href="https://github.com/kevonx17/NextPortV1">GitHub</NavLink>
             </NavItem>
 
           </Nav>

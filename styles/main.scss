@@ -1,7 +1,8 @@
 @import './shared/fonts';
-
 //Pages
 @import './index';
+//Components
+@import './header';
 
 html, body {
     height:100%;
@@ -15,3 +16,8 @@ html, body {
     letter-spacing: 2px;
     color: white;
 }
+
+.absolute {
+    position: absolute;
+  }
+  
