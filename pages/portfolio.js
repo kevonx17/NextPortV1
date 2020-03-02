@@ -1,11 +1,11 @@
 
 import { Component } from "react";
-import BaseLayout from '../../components/layouts/BaseLayout';
+import BaseLayout from '../components/layouts/BaseLayout';
 import { withRouter } from 'next/router';
-import axios from 'axios'
+import axios from 'axios';
+import BasePage from '../components/BasePage';
 
-
-class portfolioDetails extends React.Component {
+class Portfolio extends React.Component {
     /*Getting posts from server*/
     static async getInitialProps(context){
         let post = {}; // initiated outside try catch block
@@ -30,13 +30,13 @@ class portfolioDetails extends React.Component {
         //console.log(this.props);
         return(
             <BaseLayout>
-              
+                <BasePage>
                     <h1>{post.title}</h1>
                     <h2>{post.body}</h2>
                     <p1>{post.id}</p1>
-                
+                </BasePage>  
             </BaseLayout>   
         )
     }
 }
-export default withRouter(portfolioDetails);
+export default withRouter(Portfolio);

@@ -8543,7 +8543,7 @@ function (_App) {
       var _this$props = this.props,
           Component = _this$props.Component,
           pageProps = _this$props.pageProps;
-      return __jsx(next_app__WEBPACK_IMPORTED_MODULE_7__["Container"], null, __jsx(Component, pageProps));
+      return __jsx(Component, pageProps);
     }
   }], [{
     key: "getInitialProps",

@@ -3,6 +3,7 @@ import { Component } from "react";
 import Link from "next/link";
 import BaseLayout from '../components/layouts/BaseLayout';
 import axios from 'axios';
+import BasePage from '../components/BasePage';
 
 
 class portfolios extends React.Component {
@@ -48,10 +49,12 @@ class portfolios extends React.Component {
         return(
             
             <BaseLayout>
-                <h1>I am Portfolios page</h1>
-                <ul>
-                   {this.renderPosts(posts)} 
-                </ul>
+                <BasePage>
+                    <h1>I am Portfolios page</h1>
+                    <ul>
+                    {this.renderPosts(posts)} 
+                    </ul>
+                </BasePage>  
             </BaseLayout>
         )
     }
